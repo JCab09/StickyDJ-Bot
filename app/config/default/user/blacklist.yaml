@@ -1,0 +1,5 @@
+# This file contains everything that has been banned
+users:
+   entry1:
+      name  : BadBoy69
+      reason: "Bad name..."

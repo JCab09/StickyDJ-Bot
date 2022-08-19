@@ -1,0 +1,1 @@
+This folder contains the handler-classes for user-permissions, songlists etc

@@ -1,0 +1,36 @@
+# Master settings for StickyDJ-Bot
+#
+# This File is mostly for enabling/disabling parts of the bot.
+# You'll also see where the different config files used by the bot are located.
+clients: 
+   discord:
+      enable: true                                   # Enable/disable clients.
+      path  : ../../config/default/clients/discord   # Path and name of config file.
+      type  : .yaml                                  # Filetype/extension of your config file.
+   twitch :                                          # ...
+      enable: true
+      path  : ./config/default/clients/twitch
+      type  : .yaml
+modules:
+   youtube:
+      enable: true
+      path  : ../../config/default/modules/youtube
+      type  : .py
+   spotify:
+      enable: true
+      path  : ../../config/default/modules/spotify
+      type  : .py
+user:
+   userlist :
+      path    : ../../config/default/user/userlist
+      type    : .yaml
+   blacklist:
+      path    : ../../config/default/user/blacklist
+      type    : .yaml
+permissions:
+   usergroups:
+      path     : ../../config/default/permissions/usergroups
+      type     : .yaml
+   commands  :
+      path     : ../../config/default/permissions/commands
+      type     : .yaml

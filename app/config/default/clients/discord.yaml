@@ -1,0 +1,3 @@
+# Discord-Client config file
+token:
+   path: ../../config/default/tokens/discord

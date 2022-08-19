@@ -1,0 +1,6 @@
+supermod:
+   permission: all
+   rank      : mod
+discordmod:
+   permission: discord
+   rank      : mod
